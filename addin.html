@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text to PPT with AI</title>
+    <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+    <script src="addin.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        input, textarea { width: 100%; margin: 10px 0; padding: 10px; }
+        button { padding: 10px; background-color: #28a745; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Create Slides with AI-generated Images</h1>
+    <textarea id="slideText" rows="10" placeholder="Enter text here. Use '#' to separate slides."></textarea>
+    <h3>Select Image Placement:</h3>
+    <select id="imagePlacement">
+        <option value="top">Top</option>
+        <option value="bottom">Bottom</option>
+        <option value="background">Background</option>
+    </select>
+    <h3>Formatting Options:</h3>
+    <label>Title Font Size:</label><input type="number" id="titleSize" value="24">
+    <label>Content Font Size:</label><input type="number" id="contentSize" value="14">
+    <br>
+    <button id="createSlidesButton">Create Slides</button>
+</body>
+</html>
