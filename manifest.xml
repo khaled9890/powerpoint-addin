@@ -5,18 +5,18 @@
   <Version>1.0.0.0</Version>
   <ProviderName>YourName</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Text to PPT Add-In with AI"/>
-  <Description DefaultValue="Converts text to PowerPoint slides with AI-generated images and formatting options"/>
-  <IconUrl DefaultValue="https://yourwebsite.com/icon.png"/>
-  <SupportUrl DefaultValue="https://yourwebsite.com/support"/>
+  <DisplayName DefaultValue="Text to PPT Add-In"/>
+  <Description DefaultValue="Converts text to PowerPoint slides with AI-generated images"/>
+  <IconUrl DefaultValue="https://khaled9890.github.io/powerpoint-addin/icon.png"/>
+  <SupportUrl DefaultValue="https://khaled9890.github.io/powerpoint-addin/support"/>
   <AppDomains>
-    <AppDomain>https://yourwebsite.com</AppDomain>
+    <AppDomain>https://khaled9890.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Presentation"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://yourwebsite.com/addin.html"/>
+    <SourceLocation DefaultValue="https://khaled9890.github.io/powerpoint-addin/addin.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
